@@ -1,0 +1,35 @@
+body {
+    background-color: #FFFCF1;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    /* Example styling for the header */
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    /* Example styling for the main content */
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    /* Example styling for the footer */
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
