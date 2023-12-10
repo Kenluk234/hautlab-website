@@ -11,25 +11,202 @@ body {
 }
 
 header {
-    /* Example styling for the header */
-    background-color: #333;
-    color: #FFF;
+    background-color: #FFFCF1;
+    color: #FFFCF1;
     padding: 10px;
     text-align: center;
     width: 100%;
+    position: relative;
 }
 
-main {
-    /* Example styling for the main content */
-    padding: 20px;
+.bae {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 5%;
+    align-items: center;
+}
+
+.certificationClass {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 3% auto;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.hautClub {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 5%;
+    align-items: left;
+}
+
+.hautlabReaction {
+    width: 25%;
+    max-width: 100%;
+    height: 25%;
+    max-height: 100%;
+    display: block;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.hautLogo {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.horizontal-border {
+    border-top: 2px;
+    /* You can adjust the color and thickness */
+    margin-top: 20px;
+    /* Adjust the margin as needed */
+}
+
+.instaLogo {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-left: 40%
+}
+
+.modelsClass {
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.modelImages {
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+.non-stacking-image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    box-sizing: border-box;
+    animation: portalEffect 40s linear infinite;
+}
+
+.ourProductClass {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 5%;
+    align-items: left;
+}
+
+.shopButton {
+    width: 240px;
+    height: 70px;
+    display: block;
+    background-color: #A1000F;
+    font-family: "Futura", "Trebuchet MS", sans-serif;
+    font-style: italic;
+    font-size: 45px;
+    color: #FFFCF1;
+}
+
+.smallman {
+    width: 50px;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.specialOffer {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    display: block;
+    align-items: right;
+    padding-top: 10%;
+    padding-right: 10%;
+}
+
+.sunscreenClass {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 5%;
+    align-items: left;
+}
+
+.textContainer {
+    max-width: 300px;
+    /* Define the maximum width for the text */
+}
+
+.textStyle {
+    font-family: "Futura", "Trebuchet MS", sans-serif;
+    font-style: italic;
+    font-size: 45px;
+    text-align: center;
+    color: #A1000F
+}
+
+
+.hautLogo,
+.smallman {
+    display: inline-block;
     text-align: center;
 }
 
-footer {
-    /* Example styling for the footer */
-    background-color: #333;
-    color: #FFF;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
+.ourProductClass,
+.sunscreenClass {
+    vertical-align: left;
+}
+
+.shopButton,
+.textStyle p {
+    vertical-align: center;
+}
+
+@keyframes portalEffect {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+
+    25% {
+        transform: translateX(100vw) translateY(0);
+    }
+
+    50% {
+        transform: translateX(0) translateY(0);
+    }
+
+    75% {
+        transform: translateX(-100vw) translateY(0);
+    }
+
+    100% {
+        transform: translateX(0) translateY(0);
+    }
+}
+
+@keyframes teleportAnimation {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
